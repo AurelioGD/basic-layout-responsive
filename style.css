@@ -3,3 +3,22 @@
     margin: 0;
     padding: 0;
 }
+html{
+    height: 100%;
+}
+body{
+    min-height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 1fr 100px;
+}
+.logo{
+    width: 70px;
+}
+.main img{
+    width: 300px;
+}
+.footer img{
+    width: 30px;
+}
+
