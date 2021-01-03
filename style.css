@@ -23,7 +23,6 @@ body{
 }
 
 /* Start with the menu responsive */
-
 .menu{
     background-color:#7f0000;
     display: flex;
