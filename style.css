@@ -54,6 +54,31 @@ body{
 .active{
     background-color: #c62828;
 }
+.lmenu{
+    display: none;
+    align-self: center;
+    margin-right: 50px;
+    width: 35px;
+    height: 35px;
+}
+.show{
+    transition: 0.3s all;
+    top: 70px;
+}
+@media screen and (max-width:600px){
+    .lmenu{
+        display: inline-flex;
+    }
+    ul{
+        transition: 0.3s all;
+        width: 100%;
+        background-color: #424242;
+        position: absolute;
+        flex-direction: column;
+        top: -120px;
+    }
+    
+}
 
 
 
