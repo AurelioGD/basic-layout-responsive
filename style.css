@@ -70,6 +70,7 @@ body{
         display: inline-flex;
     }
     ul{
+        z-index: -1;
         transition: 0.3s all;
         width: 100%;
         background-color: #424242;
@@ -77,8 +78,29 @@ body{
         flex-direction: column;
         top: -120px;
     }
+    .main{
+        z-index: -4;
+    }
     
 }
-
+/* start with the main */
+h1{
+    text-align: center;
+}
+.main-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+}
+.main-content p{
+    text-align: center;
+    margin: 20px;
+}
+div[class*="project"]{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
 
 
